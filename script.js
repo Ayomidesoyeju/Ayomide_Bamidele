@@ -1,0 +1,22 @@
+var name = "Ayomide Bamidele";
+
+var courses =["html-css-js","Design"];
+
+console.log(name);
+console.log(courses);
+
+let length = courses.length;
+
+if(length %2== 0){
+    for(let i=1; i<=200 ; ++i){
+        if( i%2==0){
+            console.log(i);
+        }
+    }
+}else{
+    for(let i=1; i<=200 ; ++i){
+        if( i%2 != 0){
+            console.log(i);
+        }
+    }
+}
